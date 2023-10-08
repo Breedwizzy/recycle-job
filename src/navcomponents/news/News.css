@@ -1,0 +1,16 @@
+.news-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    height: 100vh !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    float: center;
+    background-color: #e0e0e0;
+}
+
+.news-container p {
+    margin: 10px 0 !important;
+}
