@@ -10,6 +10,8 @@ import Home from './components/Home';
 import { News } from './navcomponents/news/News';
 import { Aboutus } from './components/Aboutus';
 import Footer from './components/footer/Footer';
+import Preloadimage from './components/preloadimage';
+
 
 
 function App() {
@@ -30,6 +32,7 @@ function App() {
         <Route path="/contact" element={<Contact />}></Route>
         {/* Add routes for other pages */}
       </Routes>
+      <Preloadimage />
       <Footer />
 
     </div>
