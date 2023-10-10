@@ -164,4 +164,14 @@
     .order-7 {
         order: 7;
     }
+
+    .overlay-text {
+        font-size: 18px;
+        /* Adjust font size for mobile */
+    }
+
+    .overlay-text2 {
+        font-size: 14px;
+        /* Adjust font size for mobile */
+    }
 }
