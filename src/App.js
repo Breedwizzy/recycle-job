@@ -14,11 +14,13 @@ import Preloadimage from './components/preloadimage';
 
 
 
+
 function App() {
   return (
     <div>
 
       <Navbar />
+
 
       {/* Define your routes using the <Routes> component */}
       <Routes>

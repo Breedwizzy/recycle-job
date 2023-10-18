@@ -1,0 +1,45 @@
+.team-container {
+    padding-top: 100px;
+    padding-left: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.smith-team {
+    max-width: 100%;
+}
+
+
+
+/* @media screen and (max-width: 1024px) {
+    .team-container {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .smith-team {
+        max-width: 100%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .team-container {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .smith-team {
+        max-width: 100%;
+    }
+} */

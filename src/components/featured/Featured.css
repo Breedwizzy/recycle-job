@@ -19,6 +19,10 @@
 
 }
 
+/* .featured .container-2-text {
+    text-transform: uppercase;
+} */
+
 /* .featured .container-4 {
     --gap: 1.2rem;
     --num-cols: 5;
@@ -48,6 +52,11 @@
     white-space: nowrap;
 }
 
+.image-smith {
+    width: 500px;
+    height: 500px;
+}
+
 .overlay-text {
     position: absolute;
     top: 63%;
@@ -66,6 +75,12 @@
     /* Adjust the radius as needed for more or less roundness */
 }
 
+.featured .amplify-text {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    font-family: Georgia;
+}
 
 .featured .container img {
     width: 100%;
@@ -74,12 +89,39 @@
 }
 
 .featured .container-2 {
-    background-color: blue;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-transform: uppercase;
+    font-weight: bold;
+    justify-content: center;
+    /* Horizontal centering */
+    align-items: center;
+    /* Vertical centering */
+    text-align: center;
+    /* Horizontal centering */
+    font-size: 20px;
 }
 
-.featured .container-white {
-    background-color: antiquewhite;
+
+
+.featured .container-2>div {
+    background: #d3c9c9;
+    padding: 2em;
 }
+
+.featured .container-2>div:nth-child(odd) {
+    background: #c9bcbc;
+
+}
+
+.featured .container-3 .our-products {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    font-family: Georgia;
+    font-weight: bold;
+}
+
 
 .span-3 {
     grid-column: span 3;
@@ -172,6 +214,7 @@
         top: 70%;
     }
 
+
     .overlay-text2 {
         font-size: 20px;
         /* Adjust font size for mobile */
@@ -179,17 +222,22 @@
         top: 70%;
     }
 
-
+    .featured .container-2 {
+        width: 80vw;
+        height: 80vh;
+    }
 
 }
 
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
     .featured .container {
         --num-cols: 2;
         --row-height: 200px;
         --grap: .5rem;
+        width: 100vw;
+        height: 100vh;
     }
 
     .span-3 {
@@ -229,12 +277,21 @@
         /* Adjust font size for mobile */
         text-align: left;
         top: 70%;
+        width: 100vw;
+        height: 100vh;
     }
 
     .overlay-text2 {
-        font-size: 20px;
+        /* font-size: 20px;
         /* Adjust font size for mobile */
         text-align: left;
         top: 70%;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .featured .container-2 {
+        width: 100vw;
+        height: 100vh;
     }
 }
